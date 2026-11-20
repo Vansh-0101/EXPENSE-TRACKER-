@@ -1,8 +1,5 @@
 # **Expense Management System**
 
-## 🌐 GitHub Repo  
-```bash
-https://github.com/Prakashsaw/Expense-Management-System
 ```
 
 ## 🚀 Live Demo  
