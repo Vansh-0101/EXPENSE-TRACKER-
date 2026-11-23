@@ -1,4 +1,12 @@
+# Defines a redirect or rewrite rule block (used in Netlify's netlify.toml configuration)
 [[redirects]]
+
+# Matches every incoming request path on the site ("/*" is a wildcard for any route)
 from = "/*"
+
+# Serves /index.html as the response target for matched paths
 to = "/index.html"
+
+# HTTP 200 ("OK") rewrites the response in-place without changing the browser's URL bar
+# (essential for client-side routing in React/SPA apps so deep links don't return a 404)
 status = 200
