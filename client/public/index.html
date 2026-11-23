@@ -1,32 +1,49 @@
 <!DOCTYPE html>
+<!-- Declares HTML5 so browsers render the page in standards mode -->
 <html lang="en">
   <head>
+    <!-- Sets character encoding to UTF-8 so special symbols and currency signs render properly -->
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> //
+
+    <!-- Browser tab icon; %PUBLIC_URL% is replaced at build time with the public folder path -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    <!-- Ensures responsive scaling and proper layout width on mobile and tablet screens -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Suggests a browser toolbar/address-bar tint color on supported mobile devices -->
     <meta name="theme-color" content="#000000" />
+
+    <!-- Default page description for search engines and link previews (update before production) -->
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
+
+    <!-- Web app manifest for PWA metadata, icons, and install behavior -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
+    <!-- Bootstrap 5.3 CSS via CDN for prebuilt layout utilities and UI components -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+
+    <!-- Bootstrap 5.3 JS bundle (includes Popper for dropdowns, modals, and tooltips) -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
 
+    <!-- Text displayed in the browser tab or window title bar -->
     <title>Expense Managment System</title>
   </head>
 
   <body>
+    <!-- Mount point where the React application renders the entire UI -->
     <div id="root"></div>
   </body>
 </html>
