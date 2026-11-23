@@ -1,3 +1,10 @@
 # https://www.robotstxt.org/robotstxt.html
+# Reference link for understanding the robots.txt file.
+
+# User-agent: * means these rules apply to all web crawlers
+# and search engine bots (e.g., Googlebot, Bingbot).
 User-agent: *
+
+# Disallow: with no path specified means no pages or directories
+# are blocked from being crawled by search engine bots.
 Disallow:
