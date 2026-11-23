@@ -1,10 +1,9 @@
-# Official documentation and specification reference for robots.txt files.
-https://www.robotstxt.org/robotstxt.html
+# Reference URL for the robots.txt standard and specification
+# (Note: bare URLs in robots.txt are ignored by crawlers unless prefixed with '#')
+# https://www.robotstxt.org/robotstxt.html
 
-# The wildcard (*) targets all web crawlers and bots (such as Googlebot and Bingbot)
-# that do not have a more specific User-agent block assigned to them.
+# Applies the following rules to all web crawlers/bots (*) unless overridden by a more specific rule
 User-agent: *
 
-# Leaving Disallow empty means no paths are restricted, allowing bots to crawl
-# the entire site (note: crawling access differs from search index inclusion).
+# Empty Disallow value means zero paths are blocked—crawlers are allowed to access the whole site
 Disallow:
