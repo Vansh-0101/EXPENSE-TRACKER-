@@ -1,5 +1,3 @@
-
-
 const mongoose = require("mongoose"); // Import Mongoose to work with MongoDB.
 
 // Create a Mongoose schema for storing admin phone number verification details.
